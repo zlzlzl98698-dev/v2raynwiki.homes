@@ -1,0 +1,154 @@
+{
+  "generatedAt": "2026-11-19T06:35:43.130Z",
+  "indexName": "v2raynwiki_homes",
+  "totalRecords": 4330,
+  "sample": [
+    {
+      "objectID": "/about/#lvl1",
+      "url": "https://v2raynwiki.homes/about/",
+      "url_without_anchor": "https://v2raynwiki.homes/about/",
+      "type": "lvl1",
+      "lang": "zh-CN",
+      "hierarchy": {
+        "lvl0": "关于与运维",
+        "lvl1": "关于 v2rayn百科与商业推广披露 ​",
+        "lvl2": null,
+        "lvl3": null
+      },
+      "content": "说明 v2rayn百科（v2raynwiki.homes）的站点定位、数据审核流程、实测证据留档规范以及商业合作推广链接的透明披露政策。"
+    },
+    {
+      "objectID": "/about/#一、站点定位-0",
+      "url": "https://v2raynwiki.homes/about/#一、站点定位",
+      "url_without_anchor": "https://v2raynwiki.homes/about/",
+      "anchor": "一、站点定位",
+      "type": "content",
+      "lang": "zh-CN",
+      "hierarchy": {
+        "lvl0": "关于与运维",
+        "lvl1": "关于 v2rayn百科与商业推广披露 ​",
+        "lvl2": "一、站点定位 ​",
+        "lvl3": null
+      },
+      "content": "v2rayn百科（ v2raynwiki.homes ） 是一个面向中文用户的网络代理技术文档库与机场品牌参数审计数据库。本站聚焦三件具体的事： 把开源代理客户端讲透 ：围绕 Clash Verge Rev、v2rayN、Shadowrocket、FlClash、Hiddify 与 OpenWrt 软路由，提供可复现、指向官方渠道的安装、分流与故障排查手册。 把机场品牌参数审清 ：对收录的 31 家独立品牌逐项核对计费周期（区分年付折算、月付与不限时包）、客户端限制（区分纯专属客户端与通用订阅）及数据冲突。 把实测证据留档 ：保留原始未裁切测试截图、测试时间戳、工具版本及异常低速/失败节点，绝不通过编造数字或删掉差节点美化结论。"
+    },
+    {
+      "objectID": "/about/#二、商业推广披露政策-1",
+      "url": "https://v2raynwiki.homes/about/#二、商业推广披露政策",
+      "url_without_anchor": "https://v2raynwiki.homes/about/",
+      "anchor": "二、商业推广披露政策",
+      "type": "content",
+      "lang": "zh-CN",
+      "hierarchy": {
+        "lvl0": "关于与运维",
+        "lvl1": "关于 v2rayn百科与商业推广披露 ​",
+        "lvl2": "二、商业推广披露政策 ​",
+        "lvl3": null
+      },
+      "content": "本站包含机场品牌的联盟推广注册链接，所有推广链接均集中维护于代码仓库的 docs/.vitepress/data/links.ts ，并强制添加 target=\"_blank\" rel=\"nofollow sponsored noopener\" 属性。 当您通过本站链接注册并消费时，本站可能获得一定比例的推广佣金，但 绝不会增加您的实际支付价格 ；相关收益用于维持域名、测试环境与内容维护。 光速云 为本站优先建设的商业合作专题品牌，因此拥有最完整的深度评测与配套教程入口；但商业合作优先级 绝不伪装为独立无偏排名 ，也不改写任何原始测速截图、香港节点 OpenAI 仅限 App、Gemini 区域分化或价格差异提示。"
+    },
+    {
+      "objectID": "/about/#三、联系与勘误-2",
+      "url": "https://v2raynwiki.homes/about/#三、联系与勘误",
+      "url_without_anchor": "https://v2raynwiki.homes/about/",
+      "anchor": "三、联系与勘误",
+      "type": "content",
+      "lang": "zh-CN",
+      "hierarchy": {
+        "lvl0": "关于与运维",
+        "lvl1": "关于 v2rayn百科与商业推广披露 ​",
+        "lvl2": "三、联系与勘误 ​",
+        "lvl3": null
+      },
+      "content": "如发现品牌价格变更、官网停服跑路、优惠码失效或教程版本过时，欢迎通过 editorial@v2raynwiki.homes 发送反馈与截图证据，我们将在核验后更新相应文档的 updatedDate 与审计记录。"
+    },
+    {
+      "objectID": "/about/#四、评测方法论、证据留档与技术编辑标准-e-e-a-t-说明-3",
+      "url": "https://v2raynwiki.homes/about/#四、评测方法论、证据留档与技术编辑标准-e-e-a-t-说明",
+      "url_without_anchor": "https://v2raynwiki.homes/about/",
+      "anchor": "四、评测方法论、证据留档与技术编辑标准-e-e-a-t-说明",
+      "type": "content",
+      "lang": "zh-CN",
+      "hierarchy": {
+        "lvl0": "关于与运维",
+        "lvl1": "关于 v2rayn百科与商业推广披露 ​",
+        "lvl2": "四、评测方法论、证据留档与技术编辑标准（E-E-A-T 说明） ​",
+        "lvl3": null
+      },
+      "content": "为了让每一份评测结论和排障指引经得起长期交叉检验， v2rayn百科技术组 / 评测组 / 审计组 在建档与日常维护中执行统一的工程审查规范： 1. 数据真实性与可核验分层机制 ​ 原始实测截图留档（ measured ） ：全站图片中心所展示的 2026-08-19 三网 2Gbps （长沙电信、广西移动、河北联通）与珠海联通 9Gbps 单线程截图，以及 2026-08-11 MAI-TEST-BOT 统一测试截图，均 完整保留原图字节并保留顶部与底部环境信息条 （包括客户端版本、测试机房、并发线程数与个别失败/低速异常行）。 资料整理与历史边界（ vendor / historical ） ：缺乏独立测速截图仅根据服务商公开目录整理的条目，绝不在正文中包装成实测数据；来自 2026-08-09 历史归档的品牌强制加注 historical 标签，提醒购买前复核。 跨文档冲突高亮（ conflict ） ：针对源资料出现多版本优惠码、套餐流量数字矛盾、推广链接路由格式缺失（如云界线、环球梯）或宣传协议与测速图列字段不一致的情况，在对应品牌详情页及 31 家机场品牌交叉审计摘要 中逐条公开展示。 2. 编辑维护与结构化数据源（GEO / AEO） ​ 全站所有品牌数据统一托管于中央仓库结构化源文件，并同步生成面向搜索引擎与大语言模型爬虫的 /llms.txt 与 /brands."
+    },
+    {
+      "objectID": "/about/privacy#lvl1",
+      "url": "https://v2raynwiki.homes/about/privacy",
+      "url_without_anchor": "https://v2raynwiki.homes/about/privacy",
+      "type": "lvl1",
+      "lang": "zh-CN",
+      "hierarchy": {
+        "lvl0": "关于与运维",
+        "lvl1": "隐私政策与免责声明 ​",
+        "lvl2": null,
+        "lvl3": null
+      },
+      "content": "v2rayn百科（v2raynwiki.homes）的隐私保护声明、静态站数据收集政策、外部链接责任边界与合规使用提示。"
+    },
+    {
+      "objectID": "/about/privacy#一、隐私保护说明-0",
+      "url": "https://v2raynwiki.homes/about/privacy#一、隐私保护说明",
+      "url_without_anchor": "https://v2raynwiki.homes/about/privacy",
+      "anchor": "一、隐私保护说明",
+      "type": "content",
+      "lang": "zh-CN",
+      "hierarchy": {
+        "lvl0": "关于与运维",
+        "lvl1": "隐私政策与免责声明 ​",
+        "lvl2": "一、隐私保护说明 ​",
+        "lvl3": null
+      },
+      "content": "纯静态知识库架构 ：本站基于 VitePress 静态生成，不设立用户注册系统，不收集您的姓名、手机号、邮箱密码或支付凭证。 站内搜索数据 ：在启用本地中文搜索时，所有检索词均在您的浏览器本地匹配静态索引，不会上传至第三方服务器；若后续切换为 Algolia DocSearch，搜索请求将遵循 Algolia 官方隐私政策。 第三方跳转边界 ：点击外部官网或联盟注册链接后，您将离开 v2raynwiki.homes ，请自行查阅目标服务商的隐私与退款条款。"
+    },
+    {
+      "objectID": "/about/privacy#二、免责声明-1",
+      "url": "https://v2raynwiki.homes/about/privacy#二、免责声明",
+      "url_without_anchor": "https://v2raynwiki.homes/about/privacy",
+      "anchor": "二、免责声明",
+      "type": "content",
+      "lang": "zh-CN",
+      "hierarchy": {
+        "lvl0": "关于与运维",
+        "lvl1": "隐私政策与免责声明 ​",
+        "lvl2": "二、免责声明 ​",
+        "lvl3": null
+      },
+      "content": "数据时效性 ：网络代理服务商的套餐价格、流量配额、优惠码、节点地区与流媒体/AI 解锁状态随时可能变动。本站所有页面均标明 核实日期 ，购买前请以服务商结算页为准。 实测快照局限 ：本站展示的节点测速截图代表特定时间、特定宽带网络环境下的单次快照结果，不构成任何长期稳定性、速度下限或永不失联的保证。 合法合规使用 ：本站全部技术文档仅用于网络协议科普、跨平台客户端配置排障与学术/开发网络研究，请严格遵守您所在国家或地区的法律法规。"
+    },
+    {
+      "objectID": "/about/privacy#三、外部链接、隐私边界与透明运行规则-2",
+      "url": "https://v2raynwiki.homes/about/privacy#三、外部链接、隐私边界与透明运行规则",
+      "url_without_anchor": "https://v2raynwiki.homes/about/privacy",
+      "anchor": "三、外部链接、隐私边界与透明运行规则",
+      "type": "content",
+      "lang": "zh-CN",
+      "hierarchy": {
+        "lvl0": "关于与运维",
+        "lvl1": "隐私政策与免责声明 ​",
+        "lvl2": "三、外部链接、隐私边界与透明运行规则 ​",
+        "lvl3": null
+      },
+      "content": "推广链接独立隔离属性 ：站内所有导向合作服务商注册页的外链统一通过集中配置表渲染，强制附带 rel=\"nofollow sponsored noopener\" ，既避免向目标商业域名传递非自然推荐权重，也隔离了用户点击后的页面上下文隐私（ noopener ）。 客户端与订阅配置安全指引 ：本站所提供的 YAML 示例、全局扩展脚本（Script/Merge）及 PowerShell/Bash 排障命令均只在您的本地终端运行； v2rayn百科从不代为托管、不收集、也不中转任何用户的个人机场订阅 URL ，请务必妥善保管带有个人身份 Token 的订阅链接，切勿泄露给未知公共在线转换站。 Cookie 与无追踪承诺 ：目前版本网站核心阅读与本地检索功能 不挂载任何第三方广告联盟像素（AdSense）、行为画像追踪器或跨站 Cookie 。读者可无顾虑浏览全站技术百科文档与 客户端官方指南 ，相关勘误与数据政策亦随时同步于 关于本站与披露政策 及 搜索维护说明 。"
+    },
+    {
+      "objectID": "/about/search-and-maintenance#lvl1",
+      "url": "https://v2raynwiki.homes/about/search-and-maintenance",
+      "url_without_anchor": "https://v2raynwiki.homes/about/search-and-maintenance",
+      "type": "lvl1",
+      "lang": "zh-CN",
+      "hierarchy": {
+        "lvl0": "关于与运维",
+        "lvl1": "Algolia 搜索配置、自动 Sitemap 与 Apache 部署说明 ​",
+        "lvl2": null,
+        "lvl3": null
+      },
+      "content": "详细记录 v2rayn百科的 Algolia DocSearch 接入切换流程、本地搜索回退机制、自动 Sitemap 校验及 Apache .htaccess 静态部署规范。"
+    }
+  ]
+}

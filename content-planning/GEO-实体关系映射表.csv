@@ -1,0 +1,36 @@
+﻿实体ID,实体名称,英文名,实体类型,核心属性,关联协议,关联客户端,关联页面URL,数据状态
+ENT-BRAND-guangsuyun,光速云,Guangsuyun,AirportService,IEPL 专线 + 企业级内网专线（部分档位标注全球 IPLC）; ¥99/年（折合约 ¥8.25/月）; 自研+第三方订阅,VLESS|Shadowsocks（实测截图）|AnyTLS（电信专线截图）,自研全平台客户端|Clash Verge Rev|Shadowrocket|v2rayN|FlClash,/reviews/guangsuyun,measured
+ENT-BRAND-muguang,暮光加速,Twilight / Muguang,AirportService,BGP 智能调度 + 专线级出口; ¥109/年（折合约 ¥9.08/月）; 自研+第三方订阅,多协议兼容（待官网核实具体协议列表）,Windows|macOS|iOS|Android|Linux 全平台兼容,/brands/muguang,vendor
+ENT-BRAND-feimao,飞猫云,FlyCat / Feimao,AirportService,亚太欧美优化专线; ¥84/年（折合 ¥7/月）; 仅专属客户端,Shadowsocks（2026-08-11 实测截图）,飞猫云专属客户端（下载登录即用）,/brands/feimao,measured
+ENT-BRAND-weifeng,微风网络,BreezeNet / Weifeng,AirportService,IEPL 专线; ¥137/年（折合约 ¥11.42/月，100GB/月）; 自研+第三方订阅,VLESS（品牌资料）|Shadowsocks（实测截图）,Clash Verge Rev|Shadowrocket|v2rayN|FlClash,/brands/weifeng,measured
+ENT-BRAND-dalaoyun,大佬云,Dalaoyun,AirportService,IEPL 专线; 年付折合约 ¥5.6/月（60GB/月）; 自研+第三方订阅,VLESS,自研客户端|Clash Verge Rev|Shadowrocket|v2rayN,/brands/dalaoyun,partial
+ENT-BRAND-xingdaomeng,星岛梦,Xingdaomeng,AirportService,IEPL 专线; ¥96/年（折合 ¥8/月）; 自研+第三方订阅,Trojan（品牌资料）|Shadowsocks（2026-08-11 截图）,Clash Verge Rev|Shadowrocket|v2rayN|FlClash,/brands/xingdaomeng,measured
+ENT-BRAND-ermao,二猫云,Ermao Cloud,AirportService,全线 IEPL 专线; ¥89/年（折合约 ¥7.42/月）; 自研+第三方订阅,VLESS（品牌资料）|Shadowsocks（2026-08-11 截图）,定制客户端|Clash Verge Rev|Shadowrocket,/brands/ermao,measured
+ENT-BRAND-wuyou,无忧链接,WorryFree / Wuyou,AirportService,跨境优化专线; ¥79/年（折合约 ¥6.58/月）; 仅专属客户端,以官方专属客户端为准,官方专属客户端（2026 年 10 月起主打免订阅登录）,/brands/wuyou,measured
+ENT-BRAND-weitu,唯兔云,V2Yun / Weitu,AirportService,IPLC 专线; ¥79.9/年（折合约 ¥6.66/月）; 自研+第三方订阅,Trojan（品牌资料）|Shadowsocks（2026-08-11 截图）,Clash Verge Rev|Shadowrocket|v2rayN|FlClash,/brands/weitu,measured
+ENT-BRAND-firefly,Firefly（萤火虫）,Firefly,AirportService,IPLC 专线 + 原生 IP; ¥96/年（折合 ¥8/月）; 仅专属客户端,VLESS,Firefly 官方专属客户端（不提供第三方订阅链接）,/brands/firefly,vendor
+ENT-BRAND-yuzhou,宇宙云,Yuzhou Cloud,AirportService,三网优化 / IEPL（历史资料）; 历史起价 ¥96/年（月流量待核实）; 待核实,VLESS（2026-08-11 截图确认）,待核实当前订阅与客户端模式,/brands/yuzhou,partial
+ENT-BRAND-u1s1,U1S1,U1S1 Cloud,AirportService,IPLC 专线; ¥96/年（折合 ¥8/月）; 自研+第三方订阅,Shadowsocks（2026-08-11 截图）,Clash Verge Rev|Shadowrocket|v2rayN,/brands/u1s1,measured
+ENT-BRAND-lingmao,灵猫网络,CivetNet / Lingmao,AirportService,中转优化线路; ¥85/年（折合约 ¥7.08/月）; 仅专属客户端,Shadowsocks（2026-08-11 截图，原文未标明协议）,灵猫官方专属客户端（不提供订阅链接）,/brands/lingmao,measured
+ENT-BRAND-jilian,极连云,Jilian Cloud,AirportService,IEPL 专线; ¥18/月（100GB/月）; 自研+第三方订阅,Shadowsocks（2026-08-11 截图）,自研客户端|Clash Verge Rev|Shadowrocket|v2rayN,/brands/jilian,measured
+ENT-BRAND-guangnian,光年梯,Guangnian Ladder,AirportService,IEPL 专线; ¥18/月（110GB/月）; 自研+第三方订阅,VLESS（品牌资料）|Shadowsocks（2026-08-11 截图）,自研客户端|Clash Verge Rev|Shadowrocket|v2rayN,/brands/guangnian,measured
+ENT-BRAND-yifan,一翻云,1Flyun / Yifan,AirportService,全节点 IEPL 物理专线 + 原生住宅 IP（品牌资料）; ¥98/年（折合约 ¥8.17/月）; 第三方订阅为主,Hysteria 2|VLESS-Reality|Shadowsocks,Clash Verge Rev|v2rayN|Shadowrocket|FlClash|Hiddify|sing-box,/brands/yifan,measured
+ENT-BRAND-sogo,SOGO 云,SOGO Cloud,AirportService,全线 IEPL 专线 + 三网 BGP 优化; ¥98/年（折合约 ¥8.17/月）; 仅专属客户端,VLESS（品牌资料）|Shadowsocks（2026-08-11 截图）,SOGO 自研客户端（Windows / macOS / iOS / Android / 主流软路由）,/brands/sogo,measured
+ENT-BRAND-kexin,可信云,Kosing / Kexin,AirportService,IEPL 专线; ¥25/月（150GB/月）; 第三方订阅为主,VLESS（品牌资料）|Shadowsocks（2026-08-11 截图）,Clash Verge Rev|Shadowrocket|v2rayN|FlClash,/brands/kexin,measured
+ENT-BRAND-sujie,速界,SpeedWorld / Sujie,AirportService,IEPL 专线; ¥25/月（150GB/月）; 自研+第三方订阅,VLESS（品牌资料）|Shadowsocks（2026-08-11 截图）,自研客户端|Clash Verge Rev|Shadowrocket|v2rayN,/brands/sujie,measured
+ENT-BRAND-shanyue,闪跃,FlashLeap / Shanyue,AirportService,纯 IPLC 专线（骨干网接入）; ¥96/年（折合 ¥8/月）; 仅专属客户端,以官方专属客户端为准（原文未标明）,闪跃官方专属客户端（不提供订阅链接）,/brands/shanyue,vendor
+ENT-BRAND-quanqiu,全球云,Global Cloud / Quanqiu,AirportService,IPLC / IEPL 专线中转 + BGP 智能优化; ¥99/年（折合约 ¥8.25/月）; 仅专属客户端,Trojan|Shadowsocks,全球云专属客户端（不提供第三方订阅）,/brands/quanqiu,measured
+ENT-BRAND-shandianshu,闪电鼠,Shandianshu,AirportService,IEPL 专线; 年付折合约 ¥5.6/月（60GB/月）; 自研+第三方订阅,VLESS,自研客户端|Clash Verge Rev|Shadowrocket|v2rayN,/brands/shandianshu,partial
+ENT-BRAND-yunjiexian,云界线,Yunjiexian,AirportService,IEPL 专线; 年付折合约 ¥5.6/月（60GB/月）; 自研+第三方订阅,VLESS,自研客户端|Clash Verge Rev|Shadowrocket,/brands/yunjiexian,partial
+ENT-BRAND-liulianyun,榴莲云,Liulianyun,AirportService,IEPL 专线; 年付折合约 ¥5.6/月（60GB/月）; 自研+第三方订阅,待核实（品牌资料未统一提供）,自研客户端|第三方订阅（具体协议以官网为准）,/brands/liulianyun,partial
+ENT-BRAND-shenxing,神行加速,Shenxing,AirportService,IEPL 专线; 年付折合约 ¥14/月（120GB/月）; 自研+第三方订阅,VLESS,自研客户端|Clash Verge Rev|Shadowrocket|v2rayN,/brands/shenxing,partial
+ENT-BRAND-huanqiuti,环球梯,Huanqiuti,AirportService,IEPL 专线; 年付折合约 ¥5.6/月（60GB/月）; 自研+第三方订阅,VLESS,自研客户端|Clash Verge Rev|Shadowrocket,/brands/huanqiuti,partial
+ENT-BRAND-yinxingren,隐形人,Invisible / Yinxingren,AirportService,企业级 IPLC 专线直连（品牌资料）; ¥109/年（折合约 ¥9.08/月）; 仅专属客户端,未公开标注（专属客户端内置）,隐形人专属客户端（不提供 Clash/Shadowrocket 订阅链接）,/brands/yinxingren,vendor
+ENT-BRAND-tiziyun,梯子云,LadderCloud / Tiziyun,AirportService,IEPL 专线; 年付折合约 ¥7.4/月（60GB/月）; 自研+第三方订阅,VLESS,自研全平台客户端|Clash Verge Rev|Shadowrocket|v2rayN|FlClash,/brands/tiziyun,vendor
+ENT-BRAND-lingdong,灵动云,Lingdong Cloud,AirportService,IEPL 专线; 历史年付 ¥99（70GB/月，折合 ¥8.25/月）; 自研+第三方订阅,VLESS（实测确认）,Clash Verge Rev|v2rayN|Shadowrocket,/brands/lingdong,historical
+ENT-BRAND-langwang,浪网,WaveNet / Langwang,AirportService,IEPL 专线; 历史年付 ¥119（80GB/月，折合 ¥9.92/月）; 待核实,待核实,待核实,/brands/langwang,historical
+ENT-BRAND-edgenova,边缘节点 EdgeNova,EdgeNova,AirportService,高速直连 / IPLC + 多线路自动分配; 历史年付 ¥108（45GB/月，折合 ¥9/月）; 待核实,待核实,待核实,/brands/edgenova,historical
+ENT-CLIENT-clash-verge-rev,Clash Verge Rev,Clash Verge Rev,SoftwareApplication,Mihomo内核开源桌面客户端; TUN模式; 全局覆写,VLESS|VMess|Trojan|SS|Hysteria2,Windows|macOS|Linux,/clash/verge/,已核实
+ENT-CLIENT-v2rayn,v2rayN,v2rayN,SoftwareApplication,Xray/sing-box多核心客户端,VLESS-Reality|VMess|Trojan|SS|Hysteria2,Windows|macOS|Linux,/clients/windows,已核实
+ENT-CLIENT-shadowrocket,Shadowrocket,Shadowrocket,SoftwareApplication,iOS美区付费规则代理客户端,VLESS|VMess|Trojan|SS|Hysteria2,iOS|iPadOS,/clients/ios,已核实
+ENT-PROTO-iepl,IEPL专线,IEPL,NetworkArchitecture,以太网跨境内网专线; 绕开民用国际公网拥堵,VLESS|Trojan|SS,全平台,/airport/stable/iepl-vs-iplc-vs-relay,已核实

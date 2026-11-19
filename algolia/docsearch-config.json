@@ -1,0 +1,33 @@
+{
+  "index_name": "v2raynwiki_homes",
+  "start_urls": [
+    "https://v2raynwiki.homes/"
+  ],
+  "sitemap_urls": [
+    "https://v2raynwiki.homes/sitemap.xml"
+  ],
+  "stop_urls": [
+    "/404",
+    "/404.html"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".vp-doc-breadcrumb-root, .VPSidebarItem.level-0.has-active > .item > .text",
+      "global": true,
+      "default_value": "v2rayn百科文档"
+    },
+    "lvl1": ".vp-doc h1, .kb-hero h1",
+    "lvl2": ".vp-doc h2",
+    "lvl3": ".vp-doc h3",
+    "lvl4": ".vp-doc h4",
+    "text": ".vp-doc p, .vp-doc li, .vp-doc td, .vp-doc .kb-answer-first"
+  },
+  "custom_settings": {
+    "indexLanguages": ["zh"],
+    "queryLanguages": ["zh"],
+    "removeStopWords": false,
+    "attributesForFaceting": ["language", "lvl0"],
+    "distinct": true
+  },
+  "nb_hits": 0
+}

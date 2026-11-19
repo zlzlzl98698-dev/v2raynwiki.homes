@@ -1,0 +1,2017 @@
+{
+  "site": "v2raynwiki.homes",
+  "hostname": "https://v2raynwiki.homes",
+  "generatedAt": "2026-11-19",
+  "totalBrands": 31,
+  "methodologyNote": "原清单 32 条已合并去重 Firefly 重复条目，最终核定 31 个独立品牌。缺失实测的数据严格标为 partial/vendor/historical，不虚构任何数值。",
+  "brands": [
+    {
+      "slug": "guangsuyun",
+      "name": "光速云",
+      "enName": "Guangsuyun",
+      "foundedYear": "2020",
+      "lineCategory": "IEPL",
+      "lineType": "IEPL 专线 + 企业级内网专线（部分档位标注全球 IPLC）",
+      "protocols": [
+        "VLESS",
+        "Shadowsocks（实测截图）",
+        "AnyTLS（电信专线截图）"
+      ],
+      "clientMode": "自研+第三方订阅",
+      "supportedClients": [
+        "自研全平台客户端",
+        "Clash Verge Rev",
+        "Shadowrocket",
+        "v2rayN",
+        "FlClash"
+      ],
+      "entryPriceCny": 8.25,
+      "entryPriceLabel": "¥99/年（折合约 ¥8.25/月）",
+      "entryTrafficGb": 69,
+      "dataStatus": "measured",
+      "verifiedDate": "2026-10-19",
+      "updatedDate": "2026-11-19",
+      "archiveUrl": "https://v2raynwiki.homes/reviews/guangsuyun",
+      "deepReviewUrl": "https://v2raynwiki.homes/reviews/guangsuyun",
+      "plansCount": 7,
+      "plans": [
+        {
+          "name": "光速云·轻量版",
+          "billingCycle": "年付",
+          "priceCny": 99,
+          "monthlyEquivCny": 8.25,
+          "traffic": "69GB",
+          "trafficCycle": "每月重置",
+          "note": "不参与折扣，适合轻度查资料与办公"
+        },
+        {
+          "name": "致敬斯诺克147永久套餐",
+          "billingCycle": "一次性付费",
+          "priceCny": 147,
+          "traffic": "247GB",
+          "trafficCycle": "不过期",
+          "recommended": true,
+          "note": "不打折，适合备用线路与低频不固定用量"
+        },
+        {
+          "name": "光速云·极速版",
+          "billingCycle": "月付",
+          "priceCny": 25,
+          "monthlyEquivCny": 25,
+          "traffic": "168GB",
+          "trafficCycle": "每月重置",
+          "recommended": true,
+          "note": "全节点×1倍率，半年9折/年付8折/两年75折/三年7折"
+        },
+        {
+          "name": "光速云·流光版",
+          "billingCycle": "月付",
+          "priceCny": 34,
+          "monthlyEquivCny": 34,
+          "traffic": "268GB",
+          "trafficCycle": "每月重置",
+          "note": "适合日常视频与多设备同步"
+        },
+        {
+          "name": "光速云·量子版",
+          "billingCycle": "月付",
+          "priceCny": 68,
+          "monthlyEquivCny": 68,
+          "traffic": "568GB",
+          "trafficCycle": "每月重置",
+          "note": "重度 4K 流媒体与高频开发下载"
+        },
+        {
+          "name": "光速云·无界版",
+          "billingCycle": "月付",
+          "priceCny": 138,
+          "monthlyEquivCny": 138,
+          "traffic": "900GB",
+          "trafficCycle": "每月重置",
+          "note": "团队协作与大流量跨境场景"
+        },
+        {
+          "name": "光速云·定制套餐",
+          "billingCycle": "月付",
+          "priceCny": 680,
+          "monthlyEquivCny": 680,
+          "traffic": "500GB",
+          "trafficCycle": "每月重置",
+          "note": "独享原生 IP 与按需独立部署，客服一对一确认"
+        }
+      ],
+      "risks": [
+        "特殊商品与年付/永久套餐不支持退款，建议先购入极速版月付实测晚高峰",
+        "不同协议批次（Shadowsocks vs VLESS）实测表现存在差异，且美国个别节点出现低速异常",
+        "历史文案中曾出现轻量版 59GB 与 69GB 的流量表述差异，下单前以官网结算页为准"
+      ]
+    },
+    {
+      "slug": "muguang",
+      "name": "暮光加速",
+      "enName": "Twilight / Muguang",
+      "foundedYear": "2023",
+      "lineCategory": "混合专线",
+      "lineType": "BGP 智能调度 + 专线级出口",
+      "protocols": [
+        "多协议兼容（待官网核实具体协议列表）"
+      ],
+      "clientMode": "自研+第三方订阅",
+      "supportedClients": [
+        "Windows",
+        "macOS",
+        "iOS",
+        "Android",
+        "Linux 全平台兼容"
+      ],
+      "entryPriceCny": 9.08,
+      "entryPriceLabel": "¥109/年（折合约 ¥9.08/月）",
+      "entryTrafficGb": 70,
+      "dataStatus": "vendor",
+      "verifiedDate": "2026-10-19",
+      "updatedDate": "2026-11-19",
+      "archiveUrl": "https://v2raynwiki.homes/brands/muguang",
+      "deepReviewUrl": "https://v2raynwiki.homes/reviews/muguang",
+      "plansCount": 6,
+      "plans": [
+        {
+          "name": "暮光·年付轻量版",
+          "billingCycle": "年付",
+          "priceCny": 109,
+          "monthlyEquivCny": 9.08,
+          "traffic": "70GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "暮光·基础版",
+          "billingCycle": "月付",
+          "priceCny": 20,
+          "monthlyEquivCny": 20,
+          "traffic": "120GB",
+          "trafficCycle": "每月重置",
+          "recommended": true
+        },
+        {
+          "name": "暮光·标准版",
+          "billingCycle": "月付",
+          "priceCny": 40,
+          "monthlyEquivCny": 40,
+          "traffic": "240GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "暮光·旗舰版",
+          "billingCycle": "月付",
+          "priceCny": 100,
+          "monthlyEquivCny": 100,
+          "traffic": "700GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "暮光·至尊版",
+          "billingCycle": "月付",
+          "priceCny": 180,
+          "monthlyEquivCny": 180,
+          "traffic": "1500GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "暮光·不限时轻量包",
+          "billingCycle": "一次性付费",
+          "priceCny": 219,
+          "traffic": "150GB",
+          "trafficCycle": "一次性"
+        }
+      ],
+      "risks": [
+        "资料中对优惠码存在前后描述差异（头部注 muguang5555，正文注未查到公开活动），下单前需实测核对",
+        "暂无 2026-08-11 批次原始测速截图"
+      ]
+    },
+    {
+      "slug": "feimao",
+      "name": "飞猫云",
+      "enName": "FlyCat / Feimao",
+      "foundedYear": "2023",
+      "lineCategory": "混合专线",
+      "lineType": "亚太欧美优化专线",
+      "protocols": [
+        "Shadowsocks（2026-08-11 实测截图）"
+      ],
+      "clientMode": "仅专属客户端",
+      "supportedClients": [
+        "飞猫云专属客户端（下载登录即用）"
+      ],
+      "entryPriceCny": 7,
+      "entryPriceLabel": "¥84/年（折合 ¥7/月）",
+      "entryTrafficGb": 50,
+      "dataStatus": "measured",
+      "verifiedDate": "2026-10-19",
+      "updatedDate": "2026-11-19",
+      "archiveUrl": "https://v2raynwiki.homes/brands/feimao",
+      "deepReviewUrl": "https://v2raynwiki.homes/reviews/feimao",
+      "plansCount": 6,
+      "plans": [
+        {
+          "name": "飞猫·学生版",
+          "billingCycle": "年付",
+          "priceCny": 84,
+          "monthlyEquivCny": 7,
+          "traffic": "50GB",
+          "trafficCycle": "每月重置",
+          "recommended": true
+        },
+        {
+          "name": "飞猫·星耀版",
+          "billingCycle": "月付",
+          "priceCny": 25,
+          "monthlyEquivCny": 25,
+          "traffic": "150GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "飞猫·星环版",
+          "billingCycle": "月付",
+          "priceCny": 45,
+          "monthlyEquivCny": 45,
+          "traffic": "300GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "飞猫·银河版",
+          "billingCycle": "月付",
+          "priceCny": 85,
+          "monthlyEquivCny": 85,
+          "traffic": "600GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "飞猫·宇宙版",
+          "billingCycle": "月付",
+          "priceCny": 150,
+          "monthlyEquivCny": 150,
+          "traffic": "1000GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "飞猫·不限时套餐",
+          "billingCycle": "一次性付费",
+          "priceCny": 680,
+          "traffic": "1000GB",
+          "trafficCycle": "一次性"
+        }
+      ],
+      "risks": [
+        "专属客户端模式无法导出给第三方客户端或软路由使用",
+        "8 月测速截图时间为早上 08:52，不能直接等同晚高峰表现"
+      ]
+    },
+    {
+      "slug": "weifeng",
+      "name": "微风网络",
+      "enName": "BreezeNet / Weifeng",
+      "foundedYear": "2023",
+      "lineCategory": "IEPL",
+      "lineType": "IEPL 专线",
+      "protocols": [
+        "VLESS（品牌资料）",
+        "Shadowsocks（实测截图）"
+      ],
+      "clientMode": "自研+第三方订阅",
+      "supportedClients": [
+        "Clash Verge Rev",
+        "Shadowrocket",
+        "v2rayN",
+        "FlClash"
+      ],
+      "entryPriceCny": 11.42,
+      "entryPriceLabel": "¥137/年（折合约 ¥11.42/月，100GB/月）",
+      "entryTrafficGb": 100,
+      "dataStatus": "measured",
+      "verifiedDate": "2026-10-19",
+      "updatedDate": "2026-11-19",
+      "archiveUrl": "https://v2raynwiki.homes/brands/weifeng",
+      "deepReviewUrl": "https://v2raynwiki.homes/reviews/weifeng",
+      "plansCount": 6,
+      "plans": [
+        {
+          "name": "清风 (Breeze)",
+          "billingCycle": "年付",
+          "priceCny": 137,
+          "monthlyEquivCny": 11.42,
+          "traffic": "100GB",
+          "trafficCycle": "每月重置",
+          "recommended": true
+        },
+        {
+          "name": "乘风 (Riding)",
+          "billingCycle": "月付",
+          "priceCny": 27,
+          "monthlyEquivCny": 27,
+          "traffic": "200GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "破风 (Breaking)",
+          "billingCycle": "月付",
+          "priceCny": 57,
+          "monthlyEquivCny": 57,
+          "traffic": "500GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "御风 (Mastery)",
+          "billingCycle": "月付",
+          "priceCny": 127,
+          "monthlyEquivCny": 127,
+          "traffic": "1200GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "信风·不限时",
+          "billingCycle": "一次性付费",
+          "priceCny": 200,
+          "traffic": "270GB",
+          "trafficCycle": "一次性"
+        },
+        {
+          "name": "长风·不限时",
+          "billingCycle": "一次性付费",
+          "priceCny": 370,
+          "traffic": "570GB",
+          "trafficCycle": "一次性"
+        }
+      ],
+      "risks": [
+        "基础摘要标注“年付约7元/月 50GB”与正文套餐表“137元/年 100GB（约11.4元/月）”不一致，须以官网现行价为准"
+      ]
+    },
+    {
+      "slug": "dalaoyun",
+      "name": "大佬云",
+      "enName": "Dalaoyun",
+      "foundedYear": "2024",
+      "lineCategory": "IEPL",
+      "lineType": "IEPL 专线",
+      "protocols": [
+        "VLESS"
+      ],
+      "clientMode": "自研+第三方订阅",
+      "supportedClients": [
+        "自研客户端",
+        "Clash Verge Rev",
+        "Shadowrocket",
+        "v2rayN"
+      ],
+      "entryPriceCny": 5.6,
+      "entryPriceLabel": "年付折合约 ¥5.6/月（60GB/月）",
+      "entryTrafficGb": 60,
+      "dataStatus": "partial",
+      "verifiedDate": "2026-10-19",
+      "updatedDate": "2026-11-19",
+      "archiveUrl": "https://v2raynwiki.homes/brands/dalaoyun",
+      "deepReviewUrl": "https://v2raynwiki.homes/reviews/dalaoyun",
+      "plansCount": 1,
+      "plans": [
+        {
+          "name": "年付入门档（参考）",
+          "billingCycle": "年付",
+          "priceCny": 67.2,
+          "monthlyEquivCny": 5.6,
+          "traffic": "60GB",
+          "trafficCycle": "每月重置",
+          "note": "按品牌资料“年付约5.6元/月”折算，完整档位待核实"
+        }
+      ],
+      "risks": [
+        "与闪电鼠、云界线、榴莲云、环球梯规格高度同质化，缺乏独立实测截图",
+        "暂无完整多档套餐价格表"
+      ]
+    },
+    {
+      "slug": "xingdaomeng",
+      "name": "星岛梦",
+      "enName": "Xingdaomeng",
+      "foundedYear": "2020",
+      "lineCategory": "IEPL",
+      "lineType": "IEPL 专线",
+      "protocols": [
+        "Trojan（品牌资料）",
+        "Shadowsocks（2026-08-11 截图）"
+      ],
+      "clientMode": "自研+第三方订阅",
+      "supportedClients": [
+        "Clash Verge Rev",
+        "Shadowrocket",
+        "v2rayN",
+        "FlClash"
+      ],
+      "entryPriceCny": 8,
+      "entryPriceLabel": "¥96/年（折合 ¥8/月）",
+      "entryTrafficGb": 60,
+      "dataStatus": "measured",
+      "verifiedDate": "2026-10-19",
+      "updatedDate": "2026-11-19",
+      "archiveUrl": "https://v2raynwiki.homes/brands/xingdaomeng",
+      "deepReviewUrl": "https://v2raynwiki.homes/reviews/xingdaomeng",
+      "plansCount": 6,
+      "plans": [
+        {
+          "name": "星岛梦·贴心小包",
+          "billingCycle": "年付",
+          "priceCny": 96,
+          "monthlyEquivCny": 8,
+          "traffic": "60GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "星岛梦·超量150G",
+          "billingCycle": "月付",
+          "priceCny": 25,
+          "monthlyEquivCny": 25,
+          "traffic": "150GB",
+          "trafficCycle": "每月重置",
+          "recommended": true
+        },
+        {
+          "name": "星岛梦·进阶300G",
+          "billingCycle": "月付",
+          "priceCny": 50,
+          "monthlyEquivCny": 50,
+          "traffic": "300GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "星岛梦·闪光500G",
+          "billingCycle": "月付",
+          "priceCny": 70,
+          "monthlyEquivCny": 70,
+          "traffic": "500GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "星岛梦·旗舰1T版",
+          "billingCycle": "月付",
+          "priceCny": 130,
+          "monthlyEquivCny": 130,
+          "traffic": "1000GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "星岛梦·永久不限时100",
+          "billingCycle": "一次性付费",
+          "priceCny": 100,
+          "traffic": "100GB",
+          "trafficCycle": "一次性"
+        }
+      ],
+      "risks": [
+        "2026-08-11 实测时间为凌晨 01:48，未反映晚高峰负载",
+        "品牌宣传协议为 Trojan，测速截图中显示 Shadowsocks"
+      ]
+    },
+    {
+      "slug": "ermao",
+      "name": "二猫云",
+      "enName": "Ermao Cloud",
+      "foundedYear": "2023",
+      "lineCategory": "IEPL",
+      "lineType": "全线 IEPL 专线",
+      "protocols": [
+        "VLESS（品牌资料）",
+        "Shadowsocks（2026-08-11 截图）"
+      ],
+      "clientMode": "自研+第三方订阅",
+      "supportedClients": [
+        "定制客户端",
+        "Clash Verge Rev",
+        "Shadowrocket"
+      ],
+      "entryPriceCny": 7.42,
+      "entryPriceLabel": "¥89/年（折合约 ¥7.42/月）",
+      "entryTrafficGb": 60,
+      "dataStatus": "measured",
+      "verifiedDate": "2026-10-19",
+      "updatedDate": "2026-11-19",
+      "archiveUrl": "https://v2raynwiki.homes/brands/ermao",
+      "deepReviewUrl": "https://v2raynwiki.homes/reviews/ermao",
+      "plansCount": 6,
+      "plans": [
+        {
+          "name": "二猫年付小包",
+          "billingCycle": "年付",
+          "priceCny": 89,
+          "monthlyEquivCny": 7.42,
+          "traffic": "60GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "二猫云·不限时套餐",
+          "billingCycle": "一次性付费",
+          "priceCny": 99,
+          "traffic": "100GB",
+          "trafficCycle": "一次性"
+        },
+        {
+          "name": "二猫云·白猫套餐",
+          "billingCycle": "月付",
+          "priceCny": 20,
+          "monthlyEquivCny": 20,
+          "traffic": "130GB",
+          "trafficCycle": "每月重置",
+          "recommended": true
+        },
+        {
+          "name": "二猫云·橘猫畅玩版",
+          "billingCycle": "月付",
+          "priceCny": 40,
+          "monthlyEquivCny": 40,
+          "traffic": "230GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "二猫云·牛奶猫尊享版",
+          "billingCycle": "月付",
+          "priceCny": 80,
+          "monthlyEquivCny": 80,
+          "traffic": "430GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "二猫云·黑猫重度用户版",
+          "billingCycle": "月付",
+          "priceCny": 160,
+          "monthlyEquivCny": 160,
+          "traffic": "850GB",
+          "trafficCycle": "每月重置"
+        }
+      ],
+      "risks": [
+        "文案中同时提及“缺少新加坡”与测速表出现新加坡节点，节点列表以当前订阅为准",
+        "Claude 与 Gemini 支持状态不稳定"
+      ]
+    },
+    {
+      "slug": "wuyou",
+      "name": "无忧链接",
+      "enName": "WorryFree / Wuyou",
+      "foundedYear": "2025",
+      "lineCategory": "混合专线",
+      "lineType": "跨境优化专线",
+      "protocols": [
+        "以官方专属客户端为准"
+      ],
+      "clientMode": "仅专属客户端",
+      "supportedClients": [
+        "官方专属客户端（2026 年 10 月起主打免订阅登录）"
+      ],
+      "entryPriceCny": 6.58,
+      "entryPriceLabel": "¥79/年（折合约 ¥6.58/月）",
+      "entryTrafficGb": 40,
+      "dataStatus": "measured",
+      "verifiedDate": "2026-10-19",
+      "updatedDate": "2026-11-19",
+      "archiveUrl": "https://v2raynwiki.homes/brands/wuyou",
+      "deepReviewUrl": "https://v2raynwiki.homes/reviews/wuyou",
+      "plansCount": 6,
+      "plans": [
+        {
+          "name": "MINI链接",
+          "billingCycle": "年付",
+          "priceCny": 79,
+          "monthlyEquivCny": 6.58,
+          "traffic": "40GB",
+          "trafficCycle": "每月重置",
+          "recommended": true
+        },
+        {
+          "name": "舒心链接",
+          "billingCycle": "月付",
+          "priceCny": 19,
+          "monthlyEquivCny": 19,
+          "traffic": "100GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "省心链接",
+          "billingCycle": "月付",
+          "priceCny": 33,
+          "monthlyEquivCny": 33,
+          "traffic": "200GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "随心链接",
+          "billingCycle": "月付",
+          "priceCny": 77,
+          "monthlyEquivCny": 77,
+          "traffic": "500GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "忘忧链接",
+          "billingCycle": "月付",
+          "priceCny": 117,
+          "monthlyEquivCny": 117,
+          "traffic": "1000GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "100G永久不限时",
+          "billingCycle": "一次性付费",
+          "priceCny": 108,
+          "traffic": "100GB",
+          "trafficCycle": "一次性"
+        }
+      ],
+      "risks": [
+        "2025 年新品牌，长期口碑仍需持续观察",
+        "转为专属客户端后不再兼容第三方通用订阅软件"
+      ]
+    },
+    {
+      "slug": "weitu",
+      "name": "唯兔云",
+      "enName": "V2Yun / Weitu",
+      "foundedYear": "2023",
+      "lineCategory": "IPLC",
+      "lineType": "IPLC 专线",
+      "protocols": [
+        "Trojan（品牌资料）",
+        "Shadowsocks（2026-08-11 截图）"
+      ],
+      "clientMode": "自研+第三方订阅",
+      "supportedClients": [
+        "Clash Verge Rev",
+        "Shadowrocket",
+        "v2rayN",
+        "FlClash"
+      ],
+      "entryPriceCny": 6.66,
+      "entryPriceLabel": "¥79.9/年（折合约 ¥6.66/月）",
+      "entryTrafficGb": 45,
+      "dataStatus": "measured",
+      "verifiedDate": "2026-10-19",
+      "updatedDate": "2026-11-19",
+      "archiveUrl": "https://v2raynwiki.homes/brands/weitu",
+      "deepReviewUrl": "https://v2raynwiki.homes/reviews/weitu",
+      "plansCount": 6,
+      "plans": [
+        {
+          "name": "唯兔云·年付版限量款",
+          "billingCycle": "年付",
+          "priceCny": 79.9,
+          "monthlyEquivCny": 6.66,
+          "traffic": "45GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "唯兔云·年付加强专线",
+          "billingCycle": "年付",
+          "priceCny": 120,
+          "monthlyEquivCny": 10,
+          "traffic": "75GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "唯兔云·普通版",
+          "billingCycle": "月付",
+          "priceCny": 19.9,
+          "monthlyEquivCny": 19.9,
+          "traffic": "150GB",
+          "trafficCycle": "每月重置",
+          "recommended": true
+        },
+        {
+          "name": "唯兔云·进阶版",
+          "billingCycle": "月付",
+          "priceCny": 29.9,
+          "monthlyEquivCny": 29.9,
+          "traffic": "200GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "唯兔云·专业版",
+          "billingCycle": "月付",
+          "priceCny": 59.9,
+          "monthlyEquivCny": 59.9,
+          "traffic": "500GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "唯兔云·永久不限时100G",
+          "billingCycle": "一次性付费",
+          "priceCny": 100,
+          "traffic": "100GB",
+          "trafficCycle": "一次性"
+        }
+      ],
+      "risks": [
+        "节假日 14.9 元套餐为限时开放，日常购买以 19.9 元普通版为准"
+      ]
+    },
+    {
+      "slug": "firefly",
+      "name": "Firefly（萤火虫）",
+      "enName": "Firefly",
+      "foundedYear": "待核实（历史资料提及 8 年团队）",
+      "lineCategory": "IPLC",
+      "lineType": "IPLC 专线 + 原生 IP",
+      "protocols": [
+        "VLESS"
+      ],
+      "clientMode": "仅专属客户端",
+      "supportedClients": [
+        "Firefly 官方专属客户端（不提供第三方订阅链接）"
+      ],
+      "entryPriceCny": 8,
+      "entryPriceLabel": "¥96/年（折合 ¥8/月）",
+      "entryTrafficGb": 60,
+      "dataStatus": "vendor",
+      "verifiedDate": "2026-10-19",
+      "updatedDate": "2026-11-19",
+      "archiveUrl": "https://v2raynwiki.homes/brands/firefly",
+      "deepReviewUrl": "https://v2raynwiki.homes/reviews/firefly",
+      "plansCount": 6,
+      "plans": [
+        {
+          "name": "Firefly 年付版",
+          "billingCycle": "年付",
+          "priceCny": 96,
+          "monthlyEquivCny": 8,
+          "traffic": "60GB",
+          "trafficCycle": "每月重置",
+          "note": "不适用 8 折优惠码"
+        },
+        {
+          "name": "Firefly Lite",
+          "billingCycle": "月付",
+          "priceCny": 25,
+          "monthlyEquivCny": 25,
+          "traffic": "150GB",
+          "trafficCycle": "每月重置",
+          "recommended": true
+        },
+        {
+          "name": "Firefly Plus",
+          "billingCycle": "月付",
+          "priceCny": 45,
+          "monthlyEquivCny": 45,
+          "traffic": "300GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "Firefly Blaze",
+          "billingCycle": "月付",
+          "priceCny": 85,
+          "monthlyEquivCny": 85,
+          "traffic": "600GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "Firefly Nova",
+          "billingCycle": "月付",
+          "priceCny": 150,
+          "monthlyEquivCny": 150,
+          "traffic": "1000GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "Firefly 不限时",
+          "billingCycle": "一次性付费",
+          "priceCny": 100,
+          "traffic": "100GB",
+          "trafficCycle": "一次性"
+        }
+      ],
+      "risks": [
+        "源文档中重复收录为“Firefly”与“Firefly 萤火虫”并附两个不同邀请码，本站已合并去重",
+        "历史资料显示与微风等存在同系运营关联，选备用机场时应分散架构"
+      ]
+    },
+    {
+      "slug": "yuzhou",
+      "name": "宇宙云",
+      "enName": "Yuzhou Cloud",
+      "foundedYear": "待核实",
+      "lineCategory": "IEPL",
+      "lineType": "三网优化 / IEPL（历史资料）",
+      "protocols": [
+        "VLESS（2026-08-11 截图确认）"
+      ],
+      "clientMode": "待核实",
+      "supportedClients": [
+        "待核实当前订阅与客户端模式"
+      ],
+      "entryPriceCny": 8,
+      "entryPriceLabel": "历史起价 ¥96/年（月流量待核实）",
+      "entryTrafficGb": 0,
+      "dataStatus": "partial",
+      "verifiedDate": "2026-10-19",
+      "updatedDate": "2026-11-19",
+      "archiveUrl": "https://v2raynwiki.homes/brands/yuzhou",
+      "deepReviewUrl": null,
+      "plansCount": 1,
+      "plans": [
+        {
+          "name": "历史年付起价参考",
+          "billingCycle": "年付",
+          "priceCny": 96,
+          "monthlyEquivCny": 8,
+          "traffic": "待核实",
+          "trafficCycle": "待核实",
+          "note": "历史起价，不可直接视为完整在售套餐"
+        }
+      ],
+      "risks": [
+        "缺少当期完整套餐价格、月流量与解锁实测记录"
+      ]
+    },
+    {
+      "slug": "u1s1",
+      "name": "U1S1",
+      "enName": "U1S1 Cloud",
+      "foundedYear": "2025",
+      "lineCategory": "IPLC",
+      "lineType": "IPLC 专线",
+      "protocols": [
+        "Shadowsocks（2026-08-11 截图）"
+      ],
+      "clientMode": "自研+第三方订阅",
+      "supportedClients": [
+        "Clash Verge Rev",
+        "Shadowrocket",
+        "v2rayN"
+      ],
+      "entryPriceCny": 8,
+      "entryPriceLabel": "¥96/年（折合 ¥8/月）",
+      "entryTrafficGb": 60,
+      "dataStatus": "measured",
+      "verifiedDate": "2026-10-19",
+      "updatedDate": "2026-11-19",
+      "archiveUrl": "https://v2raynwiki.homes/brands/u1s1",
+      "deepReviewUrl": null,
+      "plansCount": 5,
+      "plans": [
+        {
+          "name": "u1s1·就是好用包",
+          "billingCycle": "年付",
+          "priceCny": 96,
+          "monthlyEquivCny": 8,
+          "traffic": "60GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "u1s1·普通人真够了包",
+          "billingCycle": "月付",
+          "priceCny": 20,
+          "monthlyEquivCny": 20,
+          "traffic": "120GB",
+          "trafficCycle": "每月重置",
+          "recommended": true
+        },
+        {
+          "name": "u1s1·你以为用不到包",
+          "billingCycle": "月付",
+          "priceCny": 40,
+          "monthlyEquivCny": 40,
+          "traffic": "300GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "u1s1·瘾大就拉满包",
+          "billingCycle": "月付",
+          "priceCny": 100,
+          "monthlyEquivCny": 100,
+          "traffic": "700GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "u1s1·我全都要包",
+          "billingCycle": "月付",
+          "priceCny": 180,
+          "monthlyEquivCny": 180,
+          "traffic": "1500GB",
+          "trafficCycle": "每月重置"
+        }
+      ],
+      "risks": [
+        "2025 年上线的新品牌，长期稳定性与售后尚需时间检验，不建议首单直接大额年付"
+      ]
+    },
+    {
+      "slug": "lingmao",
+      "name": "灵猫网络",
+      "enName": "CivetNet / Lingmao",
+      "foundedYear": "2025",
+      "lineCategory": "BGP中转",
+      "lineType": "中转优化线路",
+      "protocols": [
+        "Shadowsocks（2026-08-11 截图，原文未标明协议）"
+      ],
+      "clientMode": "仅专属客户端",
+      "supportedClients": [
+        "灵猫官方专属客户端（不提供订阅链接）"
+      ],
+      "entryPriceCny": 7.08,
+      "entryPriceLabel": "¥85/年（折合约 ¥7.08/月）",
+      "entryTrafficGb": 45,
+      "dataStatus": "measured",
+      "verifiedDate": "2026-10-19",
+      "updatedDate": "2026-11-19",
+      "archiveUrl": "https://v2raynwiki.homes/brands/lingmao",
+      "deepReviewUrl": null,
+      "plansCount": 6,
+      "plans": [
+        {
+          "name": "灵猫·年付小包",
+          "billingCycle": "年付",
+          "priceCny": 85,
+          "monthlyEquivCny": 7.08,
+          "traffic": "45GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "灵猫·年付Small",
+          "billingCycle": "年付",
+          "priceCny": 195,
+          "monthlyEquivCny": 16.25,
+          "traffic": "150GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "灵猫·年付Big",
+          "billingCycle": "年付",
+          "priceCny": 295,
+          "monthlyEquivCny": 24.58,
+          "traffic": "300GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "灵猫·季付Big",
+          "billingCycle": "季付",
+          "priceCny": 125,
+          "monthlyEquivCny": 41.67,
+          "traffic": "300GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "灵猫·月付Small",
+          "billingCycle": "月付",
+          "priceCny": 25,
+          "monthlyEquivCny": 25,
+          "traffic": "150GB",
+          "trafficCycle": "每月重置",
+          "recommended": true
+        },
+        {
+          "name": "灵猫·月付Big",
+          "billingCycle": "月付",
+          "priceCny": 45,
+          "monthlyEquivCny": 45,
+          "traffic": "300GB",
+          "trafficCycle": "每月重置"
+        }
+      ],
+      "risks": [
+        "源资料优惠码同时出现 lmao888 与 lingmao，且头部 19 元与正文月付 25 元存在差异",
+        "中转线路晚高峰表现易波动，建议先月付验证"
+      ]
+    },
+    {
+      "slug": "jilian",
+      "name": "极连云",
+      "enName": "Jilian Cloud",
+      "foundedYear": "2024",
+      "lineCategory": "IEPL",
+      "lineType": "IEPL 专线",
+      "protocols": [
+        "Shadowsocks（2026-08-11 截图）"
+      ],
+      "clientMode": "自研+第三方订阅",
+      "supportedClients": [
+        "自研客户端",
+        "Clash Verge Rev",
+        "Shadowrocket",
+        "v2rayN"
+      ],
+      "entryPriceCny": 18,
+      "entryPriceLabel": "¥18/月（100GB/月）",
+      "entryTrafficGb": 100,
+      "dataStatus": "measured",
+      "verifiedDate": "2026-10-19",
+      "updatedDate": "2026-11-19",
+      "archiveUrl": "https://v2raynwiki.homes/brands/jilian",
+      "deepReviewUrl": null,
+      "plansCount": 1,
+      "plans": [
+        {
+          "name": "基础月付档（参考）",
+          "billingCycle": "月付",
+          "priceCny": 18,
+          "monthlyEquivCny": 18,
+          "traffic": "100GB",
+          "trafficCycle": "每月重置",
+          "recommended": true,
+          "note": "其余档位待官网补充核实"
+        }
+      ],
+      "risks": [
+        "缺少完整多档套餐明细与流媒体专项实测数据"
+      ]
+    },
+    {
+      "slug": "guangnian",
+      "name": "光年梯",
+      "enName": "Guangnian Ladder",
+      "foundedYear": "2025",
+      "lineCategory": "IEPL",
+      "lineType": "IEPL 专线",
+      "protocols": [
+        "VLESS（品牌资料）",
+        "Shadowsocks（2026-08-11 截图）"
+      ],
+      "clientMode": "自研+第三方订阅",
+      "supportedClients": [
+        "自研客户端",
+        "Clash Verge Rev",
+        "Shadowrocket",
+        "v2rayN"
+      ],
+      "entryPriceCny": 18,
+      "entryPriceLabel": "¥18/月（110GB/月）",
+      "entryTrafficGb": 110,
+      "dataStatus": "measured",
+      "verifiedDate": "2026-10-19",
+      "updatedDate": "2026-11-19",
+      "archiveUrl": "https://v2raynwiki.homes/brands/guangnian",
+      "deepReviewUrl": null,
+      "plansCount": 1,
+      "plans": [
+        {
+          "name": "基础月付档（参考）",
+          "billingCycle": "月付",
+          "priceCny": 18,
+          "monthlyEquivCny": 18,
+          "traffic": "110GB",
+          "trafficCycle": "每月重置",
+          "recommended": true,
+          "note": "其余档位待官网补充核实"
+        }
+      ],
+      "risks": [
+        "2025 年新品牌，长期稳定性仍在观察期",
+        "缺少完整多档套餐明细"
+      ]
+    },
+    {
+      "slug": "yifan",
+      "name": "一翻云",
+      "enName": "1Flyun / Yifan",
+      "foundedYear": "2025",
+      "lineCategory": "IEPL",
+      "lineType": "全节点 IEPL 物理专线 + 原生住宅 IP（品牌资料）",
+      "protocols": [
+        "Hysteria 2",
+        "VLESS-Reality",
+        "Shadowsocks"
+      ],
+      "clientMode": "第三方订阅为主",
+      "supportedClients": [
+        "Clash Verge Rev",
+        "v2rayN",
+        "Shadowrocket",
+        "FlClash",
+        "Hiddify",
+        "sing-box"
+      ],
+      "entryPriceCny": 8.17,
+      "entryPriceLabel": "¥98/年（折合约 ¥8.17/月）",
+      "entryTrafficGb": 60,
+      "dataStatus": "measured",
+      "verifiedDate": "2026-10-19",
+      "updatedDate": "2026-11-19",
+      "archiveUrl": "https://v2raynwiki.homes/brands/yifan",
+      "deepReviewUrl": null,
+      "plansCount": 6,
+      "plans": [
+        {
+          "name": "98¥·年付小包",
+          "billingCycle": "年付",
+          "priceCny": 98,
+          "monthlyEquivCny": 8.17,
+          "traffic": "60GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "轻享版",
+          "billingCycle": "月付",
+          "priceCny": 20,
+          "monthlyEquivCny": 20,
+          "traffic": "150GB",
+          "trafficCycle": "每月重置",
+          "recommended": true
+        },
+        {
+          "name": "舒享版",
+          "billingCycle": "月付",
+          "priceCny": 35,
+          "monthlyEquivCny": 35,
+          "traffic": "350GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "尊享版",
+          "billingCycle": "月付",
+          "priceCny": 55,
+          "monthlyEquivCny": 55,
+          "traffic": "600GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "极致版",
+          "billingCycle": "月付",
+          "priceCny": 95,
+          "monthlyEquivCny": 95,
+          "traffic": "1.2TB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "轻享版·不限时包",
+          "billingCycle": "一次性付费",
+          "priceCny": 100,
+          "traffic": "100GB",
+          "trafficCycle": "一次性"
+        }
+      ],
+      "risks": [
+        "2025 年新品牌且无免费试用",
+        "“晚高峰 0 丢包”“原生住宅 IP”为品牌方宣称，8 月测速截图系凌晨 00:21 测得"
+      ]
+    },
+    {
+      "slug": "sogo",
+      "name": "SOGO 云",
+      "enName": "SOGO Cloud",
+      "foundedYear": "2026（汇总表标注）",
+      "lineCategory": "IEPL",
+      "lineType": "全线 IEPL 专线 + 三网 BGP 优化",
+      "protocols": [
+        "VLESS（品牌资料）",
+        "Shadowsocks（2026-08-11 截图）"
+      ],
+      "clientMode": "仅专属客户端",
+      "supportedClients": [
+        "SOGO 自研客户端（Windows / macOS / iOS / Android / 主流软路由）"
+      ],
+      "entryPriceCny": 8.17,
+      "entryPriceLabel": "¥98/年（折合约 ¥8.17/月）",
+      "entryTrafficGb": 60,
+      "dataStatus": "measured",
+      "verifiedDate": "2026-10-19",
+      "updatedDate": "2026-11-19",
+      "archiveUrl": "https://v2raynwiki.homes/brands/sogo",
+      "deepReviewUrl": null,
+      "plansCount": 6,
+      "plans": [
+        {
+          "name": "小包-年付版",
+          "billingCycle": "年付",
+          "priceCny": 98,
+          "monthlyEquivCny": 8.17,
+          "traffic": "60GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "基础版",
+          "billingCycle": "月付",
+          "priceCny": 25,
+          "monthlyEquivCny": 25,
+          "traffic": "150GB",
+          "trafficCycle": "每月重置",
+          "recommended": true
+        },
+        {
+          "name": "优选版",
+          "billingCycle": "月付",
+          "priceCny": 45,
+          "monthlyEquivCny": 45,
+          "traffic": "350GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "强化版",
+          "billingCycle": "月付",
+          "priceCny": 80,
+          "monthlyEquivCny": 80,
+          "traffic": "550GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "顶配版",
+          "billingCycle": "月付",
+          "priceCny": 150,
+          "monthlyEquivCny": 150,
+          "traffic": "1.1TB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "SOGO基础餐不限时版",
+          "billingCycle": "一次性付费",
+          "priceCny": 120,
+          "traffic": "120GB",
+          "trafficCycle": "一次性"
+        }
+      ],
+      "risks": [
+        "不提供第三方订阅链接，官方无试用",
+        "优惠码存在 SOGO10000 与 sss777 两个记录版本"
+      ]
+    },
+    {
+      "slug": "kexin",
+      "name": "可信云",
+      "enName": "Kosing / Kexin",
+      "foundedYear": "2024",
+      "lineCategory": "IEPL",
+      "lineType": "IEPL 专线",
+      "protocols": [
+        "VLESS（品牌资料）",
+        "Shadowsocks（2026-08-11 截图）"
+      ],
+      "clientMode": "第三方订阅为主",
+      "supportedClients": [
+        "Clash Verge Rev",
+        "Shadowrocket",
+        "v2rayN",
+        "FlClash"
+      ],
+      "entryPriceCny": 25,
+      "entryPriceLabel": "¥25/月（150GB/月）",
+      "entryTrafficGb": 150,
+      "dataStatus": "measured",
+      "verifiedDate": "2026-10-19",
+      "updatedDate": "2026-11-19",
+      "archiveUrl": "https://v2raynwiki.homes/brands/kexin",
+      "deepReviewUrl": null,
+      "plansCount": 1,
+      "plans": [
+        {
+          "name": "基础月付档（参考）",
+          "billingCycle": "月付",
+          "priceCny": 25,
+          "monthlyEquivCny": 25,
+          "traffic": "150GB",
+          "trafficCycle": "每月重置",
+          "recommended": true
+        }
+      ],
+      "risks": [
+        "测速截图底部日历日期未完整显示，按批次暂记 2026-08-11",
+        "缺乏完整多档套餐表与解锁实测"
+      ]
+    },
+    {
+      "slug": "sujie",
+      "name": "速界",
+      "enName": "SpeedWorld / Sujie",
+      "foundedYear": "2024",
+      "lineCategory": "IEPL",
+      "lineType": "IEPL 专线",
+      "protocols": [
+        "VLESS（品牌资料）",
+        "Shadowsocks（2026-08-11 截图）"
+      ],
+      "clientMode": "自研+第三方订阅",
+      "supportedClients": [
+        "自研客户端",
+        "Clash Verge Rev",
+        "Shadowrocket",
+        "v2rayN"
+      ],
+      "entryPriceCny": 25,
+      "entryPriceLabel": "¥25/月（150GB/月）",
+      "entryTrafficGb": 150,
+      "dataStatus": "measured",
+      "verifiedDate": "2026-10-19",
+      "updatedDate": "2026-11-19",
+      "archiveUrl": "https://v2raynwiki.homes/brands/sujie",
+      "deepReviewUrl": null,
+      "plansCount": 1,
+      "plans": [
+        {
+          "name": "基础月付档（参考）",
+          "billingCycle": "月付",
+          "priceCny": 25,
+          "monthlyEquivCny": 25,
+          "traffic": "150GB",
+          "trafficCycle": "每月重置",
+          "recommended": true
+        }
+      ],
+      "risks": [
+        "AI 平台风控动态变化，需多地区节点备份",
+        "完整套餐梯度待补充"
+      ]
+    },
+    {
+      "slug": "shanyue",
+      "name": "闪跃",
+      "enName": "FlashLeap / Shanyue",
+      "foundedYear": "待核实",
+      "lineCategory": "IPLC",
+      "lineType": "纯 IPLC 专线（骨干网接入）",
+      "protocols": [
+        "以官方专属客户端为准（原文未标明）"
+      ],
+      "clientMode": "仅专属客户端",
+      "supportedClients": [
+        "闪跃官方专属客户端（不提供订阅链接）"
+      ],
+      "entryPriceCny": 8,
+      "entryPriceLabel": "¥96/年（折合 ¥8/月）",
+      "entryTrafficGb": 60,
+      "dataStatus": "vendor",
+      "verifiedDate": "2026-10-19",
+      "updatedDate": "2026-11-19",
+      "archiveUrl": "https://v2raynwiki.homes/brands/shanyue",
+      "deepReviewUrl": null,
+      "plansCount": 5,
+      "plans": [
+        {
+          "name": "闪跃年付版",
+          "billingCycle": "年付",
+          "priceCny": 96,
+          "monthlyEquivCny": 8,
+          "traffic": "60GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "闪动 (Flicker)",
+          "billingCycle": "月付",
+          "priceCny": 24,
+          "monthlyEquivCny": 24,
+          "traffic": "150GB",
+          "trafficCycle": "每月重置",
+          "recommended": true
+        },
+        {
+          "name": "飞跃 (Leap)",
+          "billingCycle": "月付",
+          "priceCny": 44,
+          "monthlyEquivCny": 44,
+          "traffic": "300GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "瞬移 (Teleport)",
+          "billingCycle": "月付",
+          "priceCny": 84,
+          "monthlyEquivCny": 84,
+          "traffic": "600GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "跃迁 (Warp)",
+          "billingCycle": "月付",
+          "priceCny": 134,
+          "monthlyEquivCny": 134,
+          "traffic": "1000GB",
+          "trafficCycle": "每月重置"
+        }
+      ],
+      "risks": [
+        "缺少独立晚高峰实测截图，协议类型未公开",
+        "仅限专属客户端"
+      ]
+    },
+    {
+      "slug": "quanqiu",
+      "name": "全球云",
+      "enName": "Global Cloud / Quanqiu",
+      "foundedYear": "2026（汇总表标注）",
+      "lineCategory": "混合专线",
+      "lineType": "IPLC / IEPL 专线中转 + BGP 智能优化",
+      "protocols": [
+        "Trojan",
+        "Shadowsocks"
+      ],
+      "clientMode": "仅专属客户端",
+      "supportedClients": [
+        "全球云专属客户端（不提供第三方订阅）"
+      ],
+      "entryPriceCny": 8.25,
+      "entryPriceLabel": "¥99/年（折合约 ¥8.25/月）",
+      "entryTrafficGb": 59,
+      "dataStatus": "measured",
+      "verifiedDate": "2026-10-19",
+      "updatedDate": "2026-11-19",
+      "archiveUrl": "https://v2raynwiki.homes/brands/quanqiu",
+      "deepReviewUrl": null,
+      "plansCount": 6,
+      "plans": [
+        {
+          "name": "轻量版",
+          "billingCycle": "年付",
+          "priceCny": 99,
+          "monthlyEquivCny": 8.25,
+          "traffic": "59GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "BGP 智能优化·入门方案",
+          "billingCycle": "月付",
+          "priceCny": 20,
+          "monthlyEquivCny": 20,
+          "traffic": "120GB",
+          "trafficCycle": "每月重置",
+          "recommended": true
+        },
+        {
+          "name": "BGP 智能优化·进阶方案",
+          "billingCycle": "月付",
+          "priceCny": 40,
+          "monthlyEquivCny": 40,
+          "traffic": "300GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "BGP 智能优化·高端方案",
+          "billingCycle": "月付",
+          "priceCny": 100,
+          "monthlyEquivCny": 100,
+          "traffic": "700GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "BGP 智能优化·商业方案",
+          "billingCycle": "月付",
+          "priceCny": 180,
+          "monthlyEquivCny": 180,
+          "traffic": "1500GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "不限时轻量包",
+          "billingCycle": "一次性付费",
+          "priceCny": 100,
+          "traffic": "100GB",
+          "trafficCycle": "一次性"
+        }
+      ],
+      "risks": [
+        "不提供第三方订阅，汇总表标注为 2026 新品牌需关注长期稳定性",
+        "优惠码记录存在 qq88 与 qqy7777 两个版本"
+      ]
+    },
+    {
+      "slug": "shandianshu",
+      "name": "闪电鼠",
+      "enName": "Shandianshu",
+      "foundedYear": "2024",
+      "lineCategory": "IEPL",
+      "lineType": "IEPL 专线",
+      "protocols": [
+        "VLESS"
+      ],
+      "clientMode": "自研+第三方订阅",
+      "supportedClients": [
+        "自研客户端",
+        "Clash Verge Rev",
+        "Shadowrocket",
+        "v2rayN"
+      ],
+      "entryPriceCny": 5.6,
+      "entryPriceLabel": "年付折合约 ¥5.6/月（60GB/月）",
+      "entryTrafficGb": 60,
+      "dataStatus": "partial",
+      "verifiedDate": "2026-10-19",
+      "updatedDate": "2026-11-19",
+      "archiveUrl": "https://v2raynwiki.homes/brands/shandianshu",
+      "deepReviewUrl": null,
+      "plansCount": 1,
+      "plans": [
+        {
+          "name": "年付入门档（参考）",
+          "billingCycle": "年付",
+          "priceCny": 67.2,
+          "monthlyEquivCny": 5.6,
+          "traffic": "60GB",
+          "trafficCycle": "每月重置",
+          "note": "按年付约 5.6 元/月折算"
+        }
+      ],
+      "risks": [
+        "与大佬云、云界线、榴莲云、环球梯参数高度相似，缺乏独立实测留档"
+      ]
+    },
+    {
+      "slug": "yunjiexian",
+      "name": "云界线",
+      "enName": "Yunjiexian",
+      "foundedYear": "2024",
+      "lineCategory": "IEPL",
+      "lineType": "IEPL 专线",
+      "protocols": [
+        "VLESS"
+      ],
+      "clientMode": "自研+第三方订阅",
+      "supportedClients": [
+        "自研客户端",
+        "Clash Verge Rev",
+        "Shadowrocket"
+      ],
+      "entryPriceCny": 5.6,
+      "entryPriceLabel": "年付折合约 ¥5.6/月（60GB/月）",
+      "entryTrafficGb": 60,
+      "dataStatus": "partial",
+      "verifiedDate": "2026-10-19",
+      "updatedDate": "2026-11-19",
+      "archiveUrl": "https://v2raynwiki.homes/brands/yunjiexian",
+      "deepReviewUrl": null,
+      "plansCount": 1,
+      "plans": [
+        {
+          "name": "年付入门档（参考）",
+          "billingCycle": "年付",
+          "priceCny": 67.2,
+          "monthlyEquivCny": 5.6,
+          "traffic": "60GB",
+          "trafficCycle": "每月重置"
+        }
+      ],
+      "risks": [
+        "推广链接缺少 #/ 路由段，且源文档正文（aycnwNUi）与汇总表（HBaZ91c6）邀请码不一致",
+        "缺乏独立实测与完整套餐表"
+      ]
+    },
+    {
+      "slug": "liulianyun",
+      "name": "榴莲云",
+      "enName": "Liulianyun",
+      "foundedYear": "2024",
+      "lineCategory": "IEPL",
+      "lineType": "IEPL 专线",
+      "protocols": [
+        "待核实（品牌资料未统一提供）"
+      ],
+      "clientMode": "自研+第三方订阅",
+      "supportedClients": [
+        "自研客户端",
+        "第三方订阅（具体协议以官网为准）"
+      ],
+      "entryPriceCny": 5.6,
+      "entryPriceLabel": "年付折合约 ¥5.6/月（60GB/月）",
+      "entryTrafficGb": 60,
+      "dataStatus": "partial",
+      "verifiedDate": "2026-10-19",
+      "updatedDate": "2026-11-19",
+      "archiveUrl": "https://v2raynwiki.homes/brands/liulianyun",
+      "deepReviewUrl": null,
+      "plansCount": 1,
+      "plans": [
+        {
+          "name": "年付入门档（参考）",
+          "billingCycle": "年付",
+          "priceCny": 67.2,
+          "monthlyEquivCny": 5.6,
+          "traffic": "60GB",
+          "trafficCycle": "每月重置"
+        }
+      ],
+      "risks": [
+        "5.6 元档中唯一未标明具体协议的品牌，且缺少独立测速截图"
+      ]
+    },
+    {
+      "slug": "shenxing",
+      "name": "神行加速",
+      "enName": "Shenxing",
+      "foundedYear": "2024",
+      "lineCategory": "IEPL",
+      "lineType": "IEPL 专线",
+      "protocols": [
+        "VLESS"
+      ],
+      "clientMode": "自研+第三方订阅",
+      "supportedClients": [
+        "自研客户端",
+        "Clash Verge Rev",
+        "Shadowrocket",
+        "v2rayN"
+      ],
+      "entryPriceCny": 14,
+      "entryPriceLabel": "年付折合约 ¥14/月（120GB/月）",
+      "entryTrafficGb": 120,
+      "dataStatus": "partial",
+      "verifiedDate": "2026-10-19",
+      "updatedDate": "2026-11-19",
+      "archiveUrl": "https://v2raynwiki.homes/brands/shenxing",
+      "deepReviewUrl": null,
+      "plansCount": 1,
+      "plans": [
+        {
+          "name": "年付中档（参考）",
+          "billingCycle": "年付",
+          "priceCny": 168,
+          "monthlyEquivCny": 14,
+          "traffic": "120GB",
+          "trafficCycle": "每月重置",
+          "recommended": true
+        }
+      ],
+      "risks": [
+        "缺少完整套餐明细与独立节点测速截图"
+      ]
+    },
+    {
+      "slug": "huanqiuti",
+      "name": "环球梯",
+      "enName": "Huanqiuti",
+      "foundedYear": "2024",
+      "lineCategory": "IEPL",
+      "lineType": "IEPL 专线",
+      "protocols": [
+        "VLESS"
+      ],
+      "clientMode": "自研+第三方订阅",
+      "supportedClients": [
+        "自研客户端",
+        "Clash Verge Rev",
+        "Shadowrocket"
+      ],
+      "entryPriceCny": 5.6,
+      "entryPriceLabel": "年付折合约 ¥5.6/月（60GB/月）",
+      "entryTrafficGb": 60,
+      "dataStatus": "partial",
+      "verifiedDate": "2026-10-19",
+      "updatedDate": "2026-11-19",
+      "archiveUrl": "https://v2raynwiki.homes/brands/huanqiuti",
+      "deepReviewUrl": null,
+      "plansCount": 1,
+      "plans": [
+        {
+          "name": "年付入门档（参考）",
+          "billingCycle": "年付",
+          "priceCny": 67.2,
+          "monthlyEquivCny": 5.6,
+          "traffic": "60GB",
+          "trafficCycle": "每月重置"
+        }
+      ],
+      "risks": [
+        "推广链接格式缺少 #/ 路由段，缺乏独立测速留档"
+      ]
+    },
+    {
+      "slug": "yinxingren",
+      "name": "隐形人",
+      "enName": "Invisible / Yinxingren",
+      "foundedYear": "2024",
+      "lineCategory": "IPLC",
+      "lineType": "企业级 IPLC 专线直连（品牌资料）",
+      "protocols": [
+        "未公开标注（专属客户端内置）"
+      ],
+      "clientMode": "仅专属客户端",
+      "supportedClients": [
+        "隐形人专属客户端（不提供 Clash/Shadowrocket 订阅链接）"
+      ],
+      "entryPriceCny": 9.08,
+      "entryPriceLabel": "¥109/年（折合约 ¥9.08/月）",
+      "entryTrafficGb": 80,
+      "dataStatus": "vendor",
+      "verifiedDate": "2026-10-19",
+      "updatedDate": "2026-11-19",
+      "archiveUrl": "https://v2raynwiki.homes/brands/yinxingren",
+      "deepReviewUrl": "https://v2raynwiki.homes/reviews/yinxingren",
+      "plansCount": 6,
+      "plans": [
+        {
+          "name": "星耀风暴 365天不熄",
+          "billingCycle": "年付",
+          "priceCny": 109,
+          "monthlyEquivCny": 9.08,
+          "traffic": "80GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "隐形人 白银纪元",
+          "billingCycle": "月付",
+          "priceCny": 24,
+          "monthlyEquivCny": 24,
+          "traffic": "144GB",
+          "trafficCycle": "每月重置",
+          "recommended": true
+        },
+        {
+          "name": "隐形人 黄金序列",
+          "billingCycle": "月付",
+          "priceCny": 48,
+          "monthlyEquivCny": 48,
+          "traffic": "360GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "隐形人 铂金至臻",
+          "billingCycle": "月付",
+          "priceCny": 105,
+          "monthlyEquivCny": 105,
+          "traffic": "750GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "隐形人 钻石穹顶",
+          "billingCycle": "月付",
+          "priceCny": 185,
+          "monthlyEquivCny": 185,
+          "traffic": "1.6TB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "一次性小流量",
+          "billingCycle": "一次性付费",
+          "priceCny": 229,
+          "traffic": "160GB",
+          "trafficCycle": "一次性"
+        }
+      ],
+      "risks": [
+        "2026-10-19 测速表全部地区数据为空，无独立实测留档",
+        "不提供试用且不支持第三方客户端",
+        "优惠码同时记录 yxr888 与 moon80"
+      ]
+    },
+    {
+      "slug": "tiziyun",
+      "name": "梯子云",
+      "enName": "LadderCloud / Tiziyun",
+      "foundedYear": "2025",
+      "lineCategory": "IEPL",
+      "lineType": "IEPL 专线",
+      "protocols": [
+        "VLESS"
+      ],
+      "clientMode": "自研+第三方订阅",
+      "supportedClients": [
+        "自研全平台客户端",
+        "Clash Verge Rev",
+        "Shadowrocket",
+        "v2rayN",
+        "FlClash"
+      ],
+      "entryPriceCny": 7.4,
+      "entryPriceLabel": "年付折合约 ¥7.4/月（60GB/月）",
+      "entryTrafficGb": 60,
+      "dataStatus": "vendor",
+      "verifiedDate": "2026-10-19",
+      "updatedDate": "2026-11-19",
+      "archiveUrl": "https://v2raynwiki.homes/brands/tiziyun",
+      "deepReviewUrl": null,
+      "plansCount": 1,
+      "plans": [
+        {
+          "name": "年付入门档（参考）",
+          "billingCycle": "年付",
+          "priceCny": 88.8,
+          "monthlyEquivCny": 7.4,
+          "traffic": "60GB",
+          "trafficCycle": "每月重置",
+          "recommended": true
+        }
+      ],
+      "risks": [
+        "2025 年新品牌，尚无独立节点测速截图",
+        "“完美解锁”等措辞仅为品牌方资料表述"
+      ]
+    },
+    {
+      "slug": "lingdong",
+      "name": "灵动云",
+      "enName": "Lingdong Cloud",
+      "foundedYear": "2025",
+      "lineCategory": "IEPL",
+      "lineType": "IEPL 专线",
+      "protocols": [
+        "VLESS（实测确认）"
+      ],
+      "clientMode": "自研+第三方订阅",
+      "supportedClients": [
+        "Clash Verge Rev",
+        "v2rayN",
+        "Shadowrocket"
+      ],
+      "entryPriceCny": 8.25,
+      "entryPriceLabel": "历史年付 ¥99（70GB/月，折合 ¥8.25/月）",
+      "entryTrafficGb": 70,
+      "dataStatus": "historical",
+      "verifiedDate": "2026-08-09",
+      "updatedDate": "2026-11-19",
+      "archiveUrl": "https://v2raynwiki.homes/brands/lingdong",
+      "deepReviewUrl": null,
+      "plansCount": 6,
+      "plans": [
+        {
+          "name": "灵动·穿云",
+          "billingCycle": "年付",
+          "priceCny": 99,
+          "monthlyEquivCny": 8.25,
+          "traffic": "70GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "灵动·拂风",
+          "billingCycle": "月付",
+          "priceCny": 20,
+          "monthlyEquivCny": 20,
+          "traffic": "100GB",
+          "trafficCycle": "每月重置",
+          "recommended": true
+        },
+        {
+          "name": "灵动·驭浪",
+          "billingCycle": "月付",
+          "priceCny": 50,
+          "monthlyEquivCny": 50,
+          "traffic": "300GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "灵动·破晓",
+          "billingCycle": "月付",
+          "priceCny": 100,
+          "monthlyEquivCny": 100,
+          "traffic": "700GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "灵动·凌霄",
+          "billingCycle": "月付",
+          "priceCny": 180,
+          "monthlyEquivCny": 180,
+          "traffic": "1.5TB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "灵动·闲云（小流量包）",
+          "billingCycle": "一次性付费",
+          "priceCny": 199,
+          "traffic": "150GB",
+          "trafficCycle": "一次性"
+        }
+      ],
+      "risks": [
+        "价格与入口记录为 2026-08-09 历史资料，现行优惠码、套餐与近 30 日状态待复核",
+        "历史实测 HTTPS 延迟偏高且美国01整节点失败"
+      ]
+    },
+    {
+      "slug": "langwang",
+      "name": "浪网",
+      "enName": "WaveNet / Langwang",
+      "foundedYear": "待核实",
+      "lineCategory": "IEPL",
+      "lineType": "IEPL 专线",
+      "protocols": [
+        "待核实"
+      ],
+      "clientMode": "待核实",
+      "supportedClients": [
+        "待核实"
+      ],
+      "entryPriceCny": 9.92,
+      "entryPriceLabel": "历史年付 ¥119（80GB/月，折合 ¥9.92/月）",
+      "entryTrafficGb": 80,
+      "dataStatus": "historical",
+      "verifiedDate": "2026-08-09",
+      "updatedDate": "2026-11-19",
+      "archiveUrl": "https://v2raynwiki.homes/brands/langwang",
+      "deepReviewUrl": null,
+      "plansCount": 5,
+      "plans": [
+        {
+          "name": "浪网 年付标准",
+          "billingCycle": "年付",
+          "priceCny": 119,
+          "monthlyEquivCny": 9.92,
+          "traffic": "80GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "浪网 入门",
+          "billingCycle": "月付",
+          "priceCny": 30,
+          "monthlyEquivCny": 30,
+          "traffic": "约150GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "浪网 进阶",
+          "billingCycle": "月付",
+          "priceCny": 70,
+          "monthlyEquivCny": 70,
+          "traffic": "450GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "浪网 高端",
+          "billingCycle": "月付",
+          "priceCny": 120,
+          "monthlyEquivCny": 120,
+          "traffic": "800GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "浪网 商业",
+          "billingCycle": "月付",
+          "priceCny": 200,
+          "monthlyEquivCny": 200,
+          "traffic": "2000GB",
+          "trafficCycle": "每月重置"
+        }
+      ],
+      "risks": [
+        "缺少协议、节点、设备数、支付方式与全部测速解锁数据",
+        "属于 2026-08-09 历史记录，现行运营状态待核实"
+      ]
+    },
+    {
+      "slug": "edgenova",
+      "name": "边缘节点 EdgeNova",
+      "enName": "EdgeNova",
+      "foundedYear": "待核实",
+      "lineCategory": "IPLC",
+      "lineType": "高速直连 / IPLC + 多线路自动分配",
+      "protocols": [
+        "待核实"
+      ],
+      "clientMode": "待核实",
+      "supportedClients": [
+        "待核实"
+      ],
+      "entryPriceCny": 9,
+      "entryPriceLabel": "历史年付 ¥108（45GB/月，折合 ¥9/月）",
+      "entryTrafficGb": 45,
+      "dataStatus": "historical",
+      "verifiedDate": "2026-08-09",
+      "updatedDate": "2026-11-19",
+      "archiveUrl": "https://v2raynwiki.homes/brands/edgenova",
+      "deepReviewUrl": null,
+      "plansCount": 6,
+      "plans": [
+        {
+          "name": "限时年付",
+          "billingCycle": "年付",
+          "priceCny": 108,
+          "monthlyEquivCny": 9,
+          "traffic": "45GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "限时月付",
+          "billingCycle": "月付",
+          "priceCny": 15,
+          "monthlyEquivCny": 15,
+          "traffic": "72GB",
+          "trafficCycle": "每月重置",
+          "recommended": true
+        },
+        {
+          "name": "极界·标准",
+          "billingCycle": "月付",
+          "priceCny": 25,
+          "monthlyEquivCny": 25,
+          "traffic": "120GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "极界·进阶",
+          "billingCycle": "月付",
+          "priceCny": 50,
+          "monthlyEquivCny": 50,
+          "traffic": "250GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "极界·高级",
+          "billingCycle": "月付",
+          "priceCny": 100,
+          "monthlyEquivCny": 100,
+          "traffic": "500GB",
+          "trafficCycle": "每月重置"
+        },
+        {
+          "name": "极界·极限",
+          "billingCycle": "月付",
+          "priceCny": 200,
+          "monthlyEquivCny": 200,
+          "traffic": "1000GB",
+          "trafficCycle": "每月重置"
+        }
+      ],
+      "risks": [
+        "2026-08-09 历史记录，缺少测速、解锁、协议及现行有效状态核验"
+      ]
+    }
+  ]
+}

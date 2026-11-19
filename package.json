@@ -1,0 +1,26 @@
+{
+  "name": "v2raynwiki-homes",
+  "version": "1.0.0",
+  "private": true,
+  "description": "v2rayn百科 (v2raynwiki.homes) - 中文网络工具专业知识库与机场品牌评测数据库",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs",
+    "verify": "node scripts/verify-site.mjs",
+    "algolia:sync": "node scripts/sync-algolia.mjs",
+    "indexnow:push": "node scripts/push-indexnow.mjs",
+    "geo:feeds": "node scripts/generate-geo-feeds.mjs",
+    "deploy:pack": "node scripts/package-apache.mjs",
+    "deploy:check": "node scripts/check-live-apache.mjs",
+    "build:check": "npm run geo:feeds && npm run build && npm run verify"
+  },
+  "dependencies": {
+    "vitepress": "^1.6.3",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}

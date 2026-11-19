@@ -1,0 +1,77 @@
+# v2rayn百科 (v2raynwiki.homes)
+
+> 面向中文用户的专业网络代理技术教程与机场评测知识库，涵盖 Clash Verge Rev、v2rayN、Shadowrocket 客户端指南、31 家机场品牌参数与实测档案、套餐价格分析及订阅故障排查。
+>
+> 数据透明与核实原则：本站所有机场品牌均标注运营年份、线路类型、客户端接入方式（区分专属客户端与第三方 Clash/Shadowrocket 通用订阅）、计费周期（区分月付、年付折算与不限时流量包）及核实日期；不编造未实测的数据；商业合作专题（如光速云）不改写原始测速截图或负面局限。
+
+## 核心知识导航
+
+- [首页知识库总览](https://v2raynwiki.homes/): 包含四大专题、新手 6 步路径与 30 秒机场选型配对器
+- [机场推荐专题](https://v2raynwiki.homes/airport/): 31 家品牌实测档案、专线排行、性价比选型与科学上网入门路径
+- [VPN 与加速器专题](https://v2raynwiki.homes/vpn/): 传统商业 VPN 与机场架构对比、手机端选型、游戏与办公加速器解析
+- [Clash 客户端专题](https://v2raynwiki.homes/clash/): Clash Verge Rev、Mihomo 内核、订阅导入、规则分流与全平台客户端教程
+- [资源与情报专题](https://v2raynwiki.homes/resources/): 免费节点风险评估、机场跑路预警、节点测速方法、订阅故障库与新手百科
+- [31 家机场品牌数据库](https://v2raynwiki.homes/brands/): 支持按线路、价格、流量、客户端模式与实测留档状态筛选
+- [品牌深度评测中心](https://v2raynwiki.homes/reviews/): 含 11 家热门品牌独立深度评测报告与实测方法论
+- [品牌横向对比中心](https://v2raynwiki.homes/comparisons/): 涵盖三强横评、5.6 元档审计、主流专线及 AI 解锁对比
+- [全平台代理客户端中心](https://v2raynwiki.homes/clients/): 覆盖 Windows / Android / iOS / macOS / Linux / OpenWrt 20+ 客户端
+- [结构化品牌数据集 JSON](https://v2raynwiki.homes/brands.json): 31 家独立核实品牌的机器可读参数摘要
+- [全站 Sitemap](https://v2raynwiki.homes/sitemap.xml): 541 个规范可索引页面地图
+
+## 热门品牌独立深度评测（11 家）
+
+- [光速云（Guangsuyun）深度评测](https://v2raynwiki.homes/reviews/guangsuyun): IEPL 专线 + 企业级内网专线（部分档位标注全球 IPLC） · 入门 ¥99/年（折合约 ¥8.25/月） · 自研+第三方订阅 · 数据状态=measured · 核实日期=2026-10-19
+- [暮光加速（Twilight / Muguang）深度评测](https://v2raynwiki.homes/reviews/muguang): BGP 智能调度 + 专线级出口 · 入门 ¥109/年（折合约 ¥9.08/月） · 自研+第三方订阅 · 数据状态=vendor · 核实日期=2026-10-19
+- [飞猫云（FlyCat / Feimao）深度评测](https://v2raynwiki.homes/reviews/feimao): 亚太欧美优化专线 · 入门 ¥84/年（折合 ¥7/月） · 仅专属客户端 · 数据状态=measured · 核实日期=2026-10-19
+- [微风网络（BreezeNet / Weifeng）深度评测](https://v2raynwiki.homes/reviews/weifeng): IEPL 专线 · 入门 ¥137/年（折合约 ¥11.42/月，100GB/月） · 自研+第三方订阅 · 数据状态=measured · 核实日期=2026-10-19
+- [大佬云（Dalaoyun）深度评测](https://v2raynwiki.homes/reviews/dalaoyun): IEPL 专线 · 入门 年付折合约 ¥5.6/月（60GB/月） · 自研+第三方订阅 · 数据状态=partial · 核实日期=2026-10-19
+- [星岛梦（Xingdaomeng）深度评测](https://v2raynwiki.homes/reviews/xingdaomeng): IEPL 专线 · 入门 ¥96/年（折合 ¥8/月） · 自研+第三方订阅 · 数据状态=measured · 核实日期=2026-10-19
+- [二猫云（Ermao Cloud）深度评测](https://v2raynwiki.homes/reviews/ermao): 全线 IEPL 专线 · 入门 ¥89/年（折合约 ¥7.42/月） · 自研+第三方订阅 · 数据状态=measured · 核实日期=2026-10-19
+- [无忧链接（WorryFree / Wuyou）深度评测](https://v2raynwiki.homes/reviews/wuyou): 跨境优化专线 · 入门 ¥79/年（折合约 ¥6.58/月） · 仅专属客户端 · 数据状态=measured · 核实日期=2026-10-19
+- [唯兔云（V2Yun / Weitu）深度评测](https://v2raynwiki.homes/reviews/weitu): IPLC 专线 · 入门 ¥79.9/年（折合约 ¥6.66/月） · 自研+第三方订阅 · 数据状态=measured · 核实日期=2026-10-19
+- [Firefly（萤火虫）（Firefly）深度评测](https://v2raynwiki.homes/reviews/firefly): IPLC 专线 + 原生 IP · 入门 ¥96/年（折合 ¥8/月） · 仅专属客户端 · 数据状态=vendor · 核实日期=2026-10-19
+- [隐形人（Invisible / Yinxingren）深度评测](https://v2raynwiki.homes/reviews/yinxingren): 企业级 IPLC 专线直连（品牌资料） · 入门 ¥109/年（折合约 ¥9.08/月） · 仅专属客户端 · 数据状态=vendor · 核实日期=2026-10-19
+
+## 31 家独立核实机场品牌档案清单
+
+- [光速云](https://v2raynwiki.homes/reviews/guangsuyun): IEPL | ¥99/年（折合约 ¥8.25/月） | 自研+第三方订阅 | 协议=VLESS/Shadowsocks（实测截图）/AnyTLS（电信专线截图） | 状态=measured
+- [暮光加速](https://v2raynwiki.homes/brands/muguang): 混合专线 | ¥109/年（折合约 ¥9.08/月） | 自研+第三方订阅 | 协议=多协议兼容（待官网核实具体协议列表） | 状态=vendor
+- [飞猫云](https://v2raynwiki.homes/brands/feimao): 混合专线 | ¥84/年（折合 ¥7/月） | 仅专属客户端 | 协议=Shadowsocks（2026-08-11 实测截图） | 状态=measured
+- [微风网络](https://v2raynwiki.homes/brands/weifeng): IEPL | ¥137/年（折合约 ¥11.42/月，100GB/月） | 自研+第三方订阅 | 协议=VLESS（品牌资料）/Shadowsocks（实测截图） | 状态=measured
+- [大佬云](https://v2raynwiki.homes/brands/dalaoyun): IEPL | 年付折合约 ¥5.6/月（60GB/月） | 自研+第三方订阅 | 协议=VLESS | 状态=partial
+- [星岛梦](https://v2raynwiki.homes/brands/xingdaomeng): IEPL | ¥96/年（折合 ¥8/月） | 自研+第三方订阅 | 协议=Trojan（品牌资料）/Shadowsocks（2026-08-11 截图） | 状态=measured
+- [二猫云](https://v2raynwiki.homes/brands/ermao): IEPL | ¥89/年（折合约 ¥7.42/月） | 自研+第三方订阅 | 协议=VLESS（品牌资料）/Shadowsocks（2026-08-11 截图） | 状态=measured
+- [无忧链接](https://v2raynwiki.homes/brands/wuyou): 混合专线 | ¥79/年（折合约 ¥6.58/月） | 仅专属客户端 | 协议=以官方专属客户端为准 | 状态=measured
+- [唯兔云](https://v2raynwiki.homes/brands/weitu): IPLC | ¥79.9/年（折合约 ¥6.66/月） | 自研+第三方订阅 | 协议=Trojan（品牌资料）/Shadowsocks（2026-08-11 截图） | 状态=measured
+- [Firefly（萤火虫）](https://v2raynwiki.homes/brands/firefly): IPLC | ¥96/年（折合 ¥8/月） | 仅专属客户端 | 协议=VLESS | 状态=vendor
+- [宇宙云](https://v2raynwiki.homes/brands/yuzhou): IEPL | 历史起价 ¥96/年（月流量待核实） | 待核实 | 协议=VLESS（2026-08-11 截图确认） | 状态=partial
+- [U1S1](https://v2raynwiki.homes/brands/u1s1): IPLC | ¥96/年（折合 ¥8/月） | 自研+第三方订阅 | 协议=Shadowsocks（2026-08-11 截图） | 状态=measured
+- [灵猫网络](https://v2raynwiki.homes/brands/lingmao): BGP中转 | ¥85/年（折合约 ¥7.08/月） | 仅专属客户端 | 协议=Shadowsocks（2026-08-11 截图，原文未标明协议） | 状态=measured
+- [极连云](https://v2raynwiki.homes/brands/jilian): IEPL | ¥18/月（100GB/月） | 自研+第三方订阅 | 协议=Shadowsocks（2026-08-11 截图） | 状态=measured
+- [光年梯](https://v2raynwiki.homes/brands/guangnian): IEPL | ¥18/月（110GB/月） | 自研+第三方订阅 | 协议=VLESS（品牌资料）/Shadowsocks（2026-08-11 截图） | 状态=measured
+- [一翻云](https://v2raynwiki.homes/brands/yifan): IEPL | ¥98/年（折合约 ¥8.17/月） | 第三方订阅为主 | 协议=Hysteria 2/VLESS-Reality/Shadowsocks | 状态=measured
+- [SOGO 云](https://v2raynwiki.homes/brands/sogo): IEPL | ¥98/年（折合约 ¥8.17/月） | 仅专属客户端 | 协议=VLESS（品牌资料）/Shadowsocks（2026-08-11 截图） | 状态=measured
+- [可信云](https://v2raynwiki.homes/brands/kexin): IEPL | ¥25/月（150GB/月） | 第三方订阅为主 | 协议=VLESS（品牌资料）/Shadowsocks（2026-08-11 截图） | 状态=measured
+- [速界](https://v2raynwiki.homes/brands/sujie): IEPL | ¥25/月（150GB/月） | 自研+第三方订阅 | 协议=VLESS（品牌资料）/Shadowsocks（2026-08-11 截图） | 状态=measured
+- [闪跃](https://v2raynwiki.homes/brands/shanyue): IPLC | ¥96/年（折合 ¥8/月） | 仅专属客户端 | 协议=以官方专属客户端为准（原文未标明） | 状态=vendor
+- [全球云](https://v2raynwiki.homes/brands/quanqiu): 混合专线 | ¥99/年（折合约 ¥8.25/月） | 仅专属客户端 | 协议=Trojan/Shadowsocks | 状态=measured
+- [闪电鼠](https://v2raynwiki.homes/brands/shandianshu): IEPL | 年付折合约 ¥5.6/月（60GB/月） | 自研+第三方订阅 | 协议=VLESS | 状态=partial
+- [云界线](https://v2raynwiki.homes/brands/yunjiexian): IEPL | 年付折合约 ¥5.6/月（60GB/月） | 自研+第三方订阅 | 协议=VLESS | 状态=partial
+- [榴莲云](https://v2raynwiki.homes/brands/liulianyun): IEPL | 年付折合约 ¥5.6/月（60GB/月） | 自研+第三方订阅 | 协议=待核实（品牌资料未统一提供） | 状态=partial
+- [神行加速](https://v2raynwiki.homes/brands/shenxing): IEPL | 年付折合约 ¥14/月（120GB/月） | 自研+第三方订阅 | 协议=VLESS | 状态=partial
+- [环球梯](https://v2raynwiki.homes/brands/huanqiuti): IEPL | 年付折合约 ¥5.6/月（60GB/月） | 自研+第三方订阅 | 协议=VLESS | 状态=partial
+- [隐形人](https://v2raynwiki.homes/brands/yinxingren): IPLC | ¥109/年（折合约 ¥9.08/月） | 仅专属客户端 | 协议=未公开标注（专属客户端内置） | 状态=vendor
+- [梯子云](https://v2raynwiki.homes/brands/tiziyun): IEPL | 年付折合约 ¥7.4/月（60GB/月） | 自研+第三方订阅 | 协议=VLESS | 状态=vendor
+- [灵动云](https://v2raynwiki.homes/brands/lingdong): IEPL | 历史年付 ¥99（70GB/月，折合 ¥8.25/月） | 自研+第三方订阅 | 协议=VLESS（实测确认） | 状态=historical
+- [浪网](https://v2raynwiki.homes/brands/langwang): IEPL | 历史年付 ¥119（80GB/月，折合 ¥9.92/月） | 待核实 | 协议=待核实 | 状态=historical
+- [边缘节点 EdgeNova](https://v2raynwiki.homes/brands/edgenova): IPLC | 历史年付 ¥108（45GB/月，折合 ¥9/月） | 待核实 | 协议=待核实 | 状态=historical
+
+## 高频技术教程与排障核心文档
+
+- [Clash Verge Rev 服务模式与 TUN 虚拟网卡教程](https://v2raynwiki.homes/clash/verge/service-mode-and-tun-setup)
+- [Clash 让 ChatGPT / Claude / Gemini 走指定节点](https://v2raynwiki.homes/clash/tutorials/ai-streaming-routing-rules)
+- [Clash 连接成功却打不开网页 5 步诊断树](https://v2raynwiki.homes/clash/troubleshooting/connected-no-internet-fix)
+- [看懂节点测速图完全指南（TLS RTT / HTTPS 延迟 / FullCone）](https://v2raynwiki.homes/resources/node-check/how-to-read-speedtest-charts)
+- [IEPL 专线、IPLC 与公网 BGP 中转区别解析](https://v2raynwiki.homes/airport/stable/iepl-vs-iplc-vs-relay)
+- [31 家机场品牌交叉审计报告摘要](https://v2raynwiki.homes/resources/risk-intel/31-brands-audit-summary)
+- [关于本站与商业推广透明披露](https://v2raynwiki.homes/about/)
